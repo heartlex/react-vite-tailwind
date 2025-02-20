@@ -26,11 +26,15 @@ export default tseslint.config(
     },
     plugins: {
       'react-hooks': reactHooks,
-      'react-refresh': reactRefresh
+      'react-refresh': reactRefresh,
+      react
     },
     rules: {
       ...reactHooks.configs.recommended.rules,
-      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }]
+      'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
+      'react/jsx-uses-react': 'off',
+      'react/jsx-no-target-blank': 'off',
+      'react/react-in-jsx-scope': 'off'
     },
     settings: {
       // for eslint-plugin-react to auto detect react version
