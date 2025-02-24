@@ -1,4 +1,4 @@
-# React 19 + Vite 6 + Tailwind 4
+# React 19 + Vite 6 + Tailwind 4 Starter
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 

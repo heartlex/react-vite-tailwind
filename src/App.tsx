@@ -2,7 +2,6 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 // eslint-disable-next-line import/no-unresolved
 import viteLogo from '/vite.svg'
-// import React from 'react';
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,7 +24,7 @@ function App() {
           />
         </a>
       </div>
-      <h1 className="text-5xl font-bold mt-6">Vite + React</h1>
+      <h1 className="text-5xl font-bold my-6">Vite + React</h1>
       <button
         onClick={() => setCount((count) => count + 1)}
         className="px-4 py-2 rounded-lg bg-gray-700 hover:border-blue-500 border border-transparent text-lg font-medium transition-colors"
